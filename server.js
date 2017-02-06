@@ -13,5 +13,5 @@ app.get("/", function(req, res) {
 })
 
 app.listen(port, function() {
-   console.log("app running")vb
+   console.log("app running")
 })
