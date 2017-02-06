@@ -218,7 +218,9 @@ a:focus:after {
   cursor: pointer;
   margin-left: 1200px;
   margin-top: 30px;
-  
+  -webkit-transform: none;
+  -moz-transform: none;
+  -o-transform: none;
 }
 #text {
   margin-left: 1230px;
