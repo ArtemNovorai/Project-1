@@ -1,0 +1,255 @@
+.part1 {
+  margin: 20px
+}
+
+.container {
+  margin: 20px 20px;
+}
+
+.main-menu  {
+  margin-top: 20px;
+}
+
+.main-menu li {
+  float: left;
+  padding-right: 15px;
+  list-style: none;
+  padding: 0 -10px;
+  font-size: 13px;
+}
+
+.icons3 {
+  padding-left: 50px;
+  display: inline-block;
+  height: 50px;
+  
+}
+.g3, .g4, .g5 {
+  display: inline-block;
+   margin: 5px;
+  margin-top: 20px;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu > li {
+    position: relative;
+    display: inline-block;
+    margin-right: -4px;
+}
+
+.menu a {
+    display: block;
+    margin-left: -1px;
+    padding: 8px 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.menu a:hover {
+     cursor: pointer;
+}
+
+.menu .sub-menu {
+    position: absolute;
+    left: 1px;
+    display: none;
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background: #f4f4f4;
+    z-index: 2;
+}
+
+a:hover {
+  color: #b71111;
+}
+
+.menu .sub-menu a:hover {
+    margin-bottom: 1px;
+    text-decoration: none;
+    color: red;
+}
+
+.menu > li:hover .sub-menu {
+    display: block;
+    color: red; 
+   
+}
+
+.menu a:after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: #c63737;
+    transition: width .3s ease-in-out;
+}
+
+a:hover:after,
+a:focus:after {
+    width: 100%;
+}
+
+.menu .sub-menu .solid {
+  border-bottom: 2px red;
+}
+
+.gallery {
+  margin-right: -150px;
+  margin-top: 20px;
+}
+
+.gallery1  {
+  margin-top: 20px; 
+  overflow: hidden;  
+}
+
+.gal1 {
+  font-size: 16px
+}
+
+.advertising {
+  margin-left: 990px;
+  margin-top: -535px
+}
+
+.gallery2 {
+  margin-top: 100px;
+}
+
+.best {
+  height: 70px;
+  padding: 15px ;
+  text-align: center;
+  font-size: 23px;
+  color: #f02828;
+}
+
+.i {
+  font-size: 16px;
+} 
+
+.section1 li {
+  display: inline-block;
+}
+
+.section2 a {
+  text-decoration: none;
+}
+
+.qw  {
+  display: inline-block;
+}
+
+.qw a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.copy {
+  padding-top: 10px;
+}
+
+#footer {
+  background: #cecece;
+  width: 100%;
+  height: 310px;
+  padding-top: 50px;
+  margin-top: 50px;
+}
+
+.sponsors {
+  padding-top: 20px
+}
+
+.vacation a {
+  text-decoration: none;
+  color: #000000
+}
+
+.down {
+  font-size: 25px;
+  color: #f02828;
+  margin-top: 40px
+}  
+
+.tyu {
+  font-size: 15px;
+}
+
+.event a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.job {
+  background: #cecece ;
+  margin-top: 90px;
+  height: 430px
+}
+
+.slit {
+  margin-top: 10px
+}
+
+.event a:hover {
+  color: red;
+}
+
+.slit1 {
+  margin-top: 30px;
+}
+
+.section3 {
+  margin-top: 50px
+}
+
+.vacation a:hover {
+  color: red;
+}
+#car {
+  position: relative;
+  cursor: pointer;
+  margin-left: 1200px;
+  margin-top: 30px;
+  
+}
+#text {
+  margin-left: 1230px;
+  font-size: 20px;
+  
+}
+
+img {
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ }
+ 
+img:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+ }
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
