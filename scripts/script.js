@@ -9,9 +9,9 @@ car.onclick = function() {
 
     car.style.right = timePassed / 5 + 'px';
   
-  if (timePassed > 8300) clearInterval(timer);
+  if (timePassed > 5900) clearInterval(timer);
 
-  }, 20);
+  }, 40);
 }
 
 /* changing the color of the words */
